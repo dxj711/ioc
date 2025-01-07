@@ -3,7 +3,6 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from dotenv import load_dotenv
 
 
 
@@ -37,8 +36,8 @@ from Regression.linearRegression import generate_linear_regression
 from Regression.logisticRegression import generate_logistic_regression
 from Regression.randomForest import generate_random_forest
 from Regression.gradientRegression import generate_gradient_regression
-load_dotenv()
-api_key = "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"
+#load_dotenv()
+#api_key = "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"
 #os.getenv('OPENAI_API_KEY')
 #st.set_page_config(layout="wide")
 
